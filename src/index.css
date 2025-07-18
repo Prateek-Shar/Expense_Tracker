@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  overflow-x: hidden;
+  background: linear-gradient(to right , #00b4d8, #caf0f8);
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
